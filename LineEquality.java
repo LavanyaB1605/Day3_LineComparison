@@ -12,8 +12,8 @@ public class LineEquality {
         System.out.println("Enter the value for y2");
         int y2 = sc.nextInt();
         boolean len1 = x1 == (y1);
-        System.out.println("Length of line is " + len1);
+        System.out.println("x1 and y1 are equal? " + len1);
         boolean len2 = x2 == (y2);
-        System.out.println("Length of line is " + len2);
+        System.out.println("x2 and y2 are equal? " + len2);
     }
 }
